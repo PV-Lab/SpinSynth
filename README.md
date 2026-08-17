@@ -35,14 +35,15 @@ The MOBO code was adapted from **https://github.com/PV-Lab/MOBO-Kit**. Please se
 The high-throughput characterization analysis was performed in Python. Major dependencies include:
 
 ```text
+requests
+matplotlib
 numpy
 pandas
-scipy
-matplotlib
 scikit-learn
-torch
-botorch
-ax-platform
+scipy
+shapely
+spectral
+seaborn
 ```
 
 Exact package versions used for the manuscript analyses are provided in `requirements.txt`.
