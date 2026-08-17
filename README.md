@@ -18,6 +18,9 @@ We demonstrate the workflow using the spin-coating synthesis of the perovskite-i
 
 ```text
 SpinSynth/
+├── README.md
+├── LICENSE
+├── requirements.txt
 ├── FAPbI3_Test/
 ├── Phase_Purity_Proxy_Test/
 ├── LLM_BO/                 # LLM-assisted initialization and MOBO workflows
