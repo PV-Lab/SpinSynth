@@ -18,6 +18,8 @@ We demonstrate the workflow using the spin-coating synthesis of the perovskite-i
 
 ```text
 SpinSynth/
+├── FAPbI3_Test/
+├── Phase_Purity_Proxy_Test/
 ├── LLM_BO/                 # LLM-assisted initialization and MOBO workflows
 ├── Regular_BO/             # Conventional MOBO baseline
 ├── High-throughput Characterization/       # Hyperspectral characterization pipelines
