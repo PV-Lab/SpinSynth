@@ -98,6 +98,8 @@ The repository contains Jupyter notebooks for calculating the three hyperspectra
 
 Example test datasets are provided in Example_Data folder.
 
+The repository also includes MOBO codes for both LLM-BO group and regular BO group.
+
 ### Film coverage
 
 Open:
@@ -124,7 +126,12 @@ Open:
 ```
 Set the correct datapath and savepath in the notebook and run all notebook cells.
 
+### MOBO
+
+Download the notebooks in the folder LLM-BO/Reugular BO and run all notebook cells.
+
 ### Expected output
+The expected outputs and run time for each cell can be found on uploaded notebooks.
 
 ## Data availability
 
