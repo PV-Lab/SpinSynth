@@ -31,7 +31,19 @@ SpinSynth/
     └── phase_purity_proxy.ipynb
 ```
 
-## Requirements
+## System Requirements
+
+### Operating system
+
+The code was developed and tested on:
+
+- macOS 12.6
+- Apple Silicon (M1 Pro)
+- Python 3.11.8
+
+All the codes are written in Python. Other operating systems have not been systematically tested.
+
+### Python dependencies
 
 The MOBO code was adapted from **https://github.com/PV-Lab/MOBO-Kit**. Please see the repo for detailed requirements.
 
@@ -50,6 +62,69 @@ seaborn
 ```
 
 Exact package versions used for the manuscript analyses are provided in `requirements.txt`.
+
+## Installation guide (2~5 mins)
+
+### 1.Clone the repository
+
+```bash
+git clone https://github.com/PV-Lab/SpinSynth.git
+cd SpinSynth
+```
+
+### 2.Create a Python environment
+
+We recommend creating a dedicated environment rather than installing into an existing base environment.
+Using `venv`:
+
+```bash
+conda create -n spinsynth python=3.11.8
+conda activate spinsynth
+```
+
+### 3.Install dependencies through pip
+```bash
+pip install -r requirements.txt
+```
+Open the repository directly in VS Code and select the `spinsynth` environment as the notebook kernel to use the supplied Jupyter notebooks.
+
+## Demo
+
+The repository contains Jupyter notebooks for calculating the three hyperspectral-imaging-derived objectives:
+
+- film coverage;
+- film uniformity;
+- phase purity proxy.
+
+Example test datasets are provided in Example_Data folder.
+
+### Film coverage
+
+Open:
+
+```text
+[exact path]/film_coverage.ipynb
+```
+Set the correct datapath and savepath in the notebook and run all notebook cells.
+
+### Film uniformity
+
+Open:
+
+```text
+[exact path]/film_uniformity.ipynb
+```
+Set the correct datapath and savepath in the notebook and run all notebook cells.
+### Phase purity proxy
+
+Open:
+
+```text
+[exact path]/phase_purity_proxy.ipynb
+```
+Set the correct datapath and savepath in the notebook and run all notebook cells.
+
+### Expected output
 
 ## Data availability
 
