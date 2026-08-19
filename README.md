@@ -25,6 +25,7 @@ SpinSynth/
 ├── Phase_Purity_Proxy_Test/
 ├── LLM_BO/                 # LLM-assisted initialization and MOBO workflows
 ├── Regular_BO/             # Conventional MOBO baseline
+├── Example_Data/           # Dataset to demo the code
 ├── High-throughput Characterization/       # Hyperspectral characterization pipelines
     ├── film_coverage.ipynb
     ├── film_uniformity.ipynb
@@ -75,7 +76,6 @@ cd SpinSynth
 ### 2.Create a Python environment
 
 We recommend creating a dedicated environment rather than installing into an existing base environment.
-Using `venv`:
 
 ```bash
 conda create -n spinsynth python=3.11.8
@@ -100,7 +100,7 @@ Example test datasets are provided in Example_Data folder.
 
 The repository also includes MOBO codes for both LLM-BO group and regular BO group.
 
-### Film coverage
+### 1.Film coverage (5~10 mins)
 
 Open:
 
@@ -109,7 +109,7 @@ Open:
 ```
 Set the correct datapath and savepath in the notebook and run all notebook cells.
 
-### Film uniformity
+### 2.Film uniformity (5~10 mins)
 
 Open:
 
@@ -117,7 +117,7 @@ Open:
 [exact path]/film_uniformity.ipynb
 ```
 Set the correct datapath and savepath in the notebook and run all notebook cells.
-### Phase purity proxy
+### 3.Phase purity proxy (10~20 mins)
 
 Open:
 
@@ -126,12 +126,24 @@ Open:
 ```
 Set the correct datapath and savepath in the notebook and run all notebook cells.
 
-### MOBO
+### 4.MOBO (5~10 mins)
 
 Download the notebooks in the folder LLM-BO/Reugular BO and run all notebook cells.
 
-### Expected output
-The expected outputs and run time for each cell can be found on uploaded notebooks.
+### 5. Expected output
+The expected outputs for each cell can be found on uploaded notebooks.
+
+## Instructions for use
+
+To analyze a thin-film sample:
+
+1. Place the hyperspectral data in an accessible local directory.
+2. Open the corresponding characterization notebook.
+3. Modify the datapath and savepath. Modify the corresponding parameters in the functions based on the hypercube quality and the material types.
+4. Run the notebook sequentially.
+5. Record the resulting coverage, uniformity, and phase purity-proxy values.
+
+The resulting objective values can then be supplied to the Bayesian optimization workflow as experimental feedback.
 
 ## Data availability
 
