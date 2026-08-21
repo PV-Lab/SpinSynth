@@ -1,6 +1,6 @@
 # SpinSynth
 
-This repository includes the codes for manuscript:
+This repository includes the codes for manuscript: <a href="https://arxiv.org/abs/2608.15928">https://arxiv.org/abs/2608.15928</a>
 
 **“Synthesizing like a chemist: an iterative, feedback-driven loop for materials discovery”**
 
